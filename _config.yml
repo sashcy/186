@@ -1,0 +1,21 @@
+title: Binary.com USDB Coin
+email: 
+description: 
+baseurl: "" 
+url: "" 
+twitter_username: 
+github_username: 
+future: true
+
+livereload: true
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  
+sass:
+  style: :compressed 
+  
+exclude:
+  - Gemfile
+  - Gemfile.lock
