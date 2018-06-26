@@ -3,12 +3,11 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{% if page.title %}Binary.com Affiliates {{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
 	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 	<meta name="keywords" content="{{page.keywords}}">
 	<link rel="icon" href="{{ '/assets/images/binary-icon.png' | prepend: SourceUrl  }}" sizes="57x57"/>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:100,500&amp;subset=cyrillic,vietnamese" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,700,900" rel="stylesheet">
 	<link rel="stylesheet" href="https://style.binary.com/binary.css">
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | prepend: SourceUrl  }}">
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">		
