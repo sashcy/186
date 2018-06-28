@@ -35,7 +35,7 @@
         font-weight: 400;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     .mb-bottom-30 {
         margin-bottom: 50px;
     }
@@ -63,7 +63,7 @@
     background-size: cover;
 	padding: 20px;
 	background-position: top;
-    min-height: 80vh;
+    min-height: 60vh;
     position: relative;
     display: flex;
     align-items: center;
