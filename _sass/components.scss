@@ -29,6 +29,15 @@
     margin-bottom: 0px;
     //color: #2a3052;
 }
+@media screen and (max-width: 576px) {
+    .section-title {
+        font-size: 36px;
+        font-weight: 400;
+    }
+    .mb-bottom-30 {
+        margin-bottom: 50px;
+    }
+}
 .section-intro {
     margin-bottom: 50px;
 }
