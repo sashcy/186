@@ -20,16 +20,6 @@
     margin-top: 30px;
     margin-bottom: 0px;
 }
-@media screen and (max-width: 992px) {
-    .mb-bottom-30 {
-        margin-bottom: 50px;
-    }
-    .header-title {
-        font-size: 36px;
-        line-height: 40px;
-        font-weight: 300;
-    }
-}
 .section-intro {
     margin-bottom: 50px;
 }
@@ -105,11 +95,14 @@
         min-height: 50vh;
     }
 }
-@media only screen and (max-width:992px) {
-    .Social {
-        margin-top: 5px;
-        margin-bottom: 15px;
-        text-align: center
+@media screen and (max-width: 992px) {
+    .mb-bottom-30 {
+        margin-bottom: 50px;
+    }
+    .header-title {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 300;
     }
     .lg-center {
         text-align: center !important;

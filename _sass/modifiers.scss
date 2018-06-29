@@ -32,7 +32,9 @@ a, a:visited {
 .hr-padding-md {
     padding: 0 60px;
 }
-
+.bottom--30 {
+    margin-bottom: -30px;
+}
 
 /* Separators */
 
@@ -100,11 +102,6 @@ a, a:visited {
 }
 
 /* Typography */
-
-
-.Mont {
-    font-family: 'Montserrat', sans-serif;
-}
 
 .title-xxs {
     font-size: 16px;
@@ -220,15 +217,6 @@ a, a:visited {
 .border {
     border: 1px solid #dedede;
 }
-.bottom-white-border {
-    border-bottom: 1px solid #FFFFFF;
-}
-.right-white-border {
-    border-right: 1px solid #FFFFFF;
-}
-.mb-bottom-white-border {
-        border-bottom: 0px solid #FFFFFF;
-    }
 .border-top-secondary-color {
     border-top: 3px solid #e98024;
 }
@@ -245,4 +233,8 @@ a, a:visited {
 
 .TestBG {
     background: #ccc;
+}
+
+.table-col {
+    border-bottom: 3px solid #f2f2f2;
 }
