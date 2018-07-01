@@ -17,7 +17,12 @@ a, a:visited {
 .no-margins {
     margin: 0;
 }
-
+.bottom--30 {
+    margin-bottom: -30px;
+}
+.bottom-30 {
+    margin-bottom: 30px;
+}
 
 /* Padding */
 
@@ -32,10 +37,6 @@ a, a:visited {
 .hr-padding-md {
     padding: 0 60px;
 }
-.bottom--30 {
-    margin-bottom: -30px;
-}
-
 /* Separators */
 
 .separator {
