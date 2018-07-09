@@ -1,0 +1,197 @@
+.logo-wrapper {
+    padding: 0px;
+    margin: 0;
+}
+@media screen and (max-width: 992px) {
+      .logo-wrapper {
+          margin-left: auto;
+          margin-right: auto;
+          text-align: center;
+          display: block!important;
+          padding-top: 20px;
+    } 
+}
+.section-md {
+    padding: 30px 0;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+.section-intro {
+    margin-bottom: 50px;
+}
+.coin-section {
+    border-top: 3px solid #e98024;
+    border-bottom: 3px solid #e98024;
+}
+.home--header {
+	width: 100%; /* for IE 6 */
+	background:  
+	linear-gradient(
+      rgba(42, 48, 82, 1),
+      rgba(42, 48, 82, .5)
+    ),
+	url(../images/h1.jpg) no-repeat;
+    background-size: cover;
+	padding: 20px;
+	background-position: top;
+    min-height: 60vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.header-title {
+    font-size: 64px;
+    line-height: 60px;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.header-sub {
+    display: table;
+    background-color:  rgba(42, 48, 82, 0.5);
+    margin: 10px 0;
+    padding: 10px 20px;
+}
+.earn-interest {
+    width: 800px;
+    max-width: 100%;
+}
+@media only screen and (max-width:768px) {
+    .md-center {
+        text-align: center !important;
+    }
+    .home--header {
+        min-height: 50vh;
+    }
+}
+@media screen and (max-width: 992px) {
+    .mb-bottom-30 {
+        margin-bottom: 50px;
+    }
+    .header-title {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 300;
+    }
+    .lg-center {
+        text-align: center !important;
+    }
+}
+.usdb-coin {
+    width: 150px;
+    max-width: 100%;
+}
+.title-xl {
+    font-size: 36px;
+}
+.ft-300 {
+    font-weight: 300;
+}
+.ft-400 {
+    font-weight: 400;
+}
+.table-col {
+    border-bottom: 3px solid #f2f2f2;
+}
+.bottom--30 {
+    margin-bottom: -30px;
+}
+.bottom-30 {
+    margin-bottom: 30px;
+}
+.icon-xs {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 0px;
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.icon-md {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;	
+    width: 50px;
+    max-width: 100%;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.icon-lg {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;	
+    width: 100px;
+    max-width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+.icon-xl {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;	
+    width: 150px;
+    max-width: 150%;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.icon-buy {
+    background: url(../svg/buy.svg) no-repeat;
+    background-position: center;
+}
+.icon-trade {
+    background: url(../svg/trade.svg) no-repeat;
+    background-position: center;
+}
+.icon-clients {
+    background: url(../svg/clients.svg) no-repeat;
+    background-position: center;
+}
+.icon-contract {
+    background: url(../svg/contract.svg) no-repeat;
+    background-position: center;
+}
+.icon-crypto-traders {
+    background: url(../svg/crypto-traders.svg) no-repeat;
+    background-position: center;
+}
+.icon-hold {
+    background: url(../svg/hold.svg) no-repeat;
+    background-position: center;
+}
+.icon-online-business {
+    background: url(../svg/online-business.svg) no-repeat;
+    background-position: center;
+}
+.icon-peaceofmind {
+    background: url(../svg/peaceofmind.svg) no-repeat;
+    background-position: center;
+}
+.icon-redeem {
+    background: url(../svg/redeem.svg) no-repeat;
+    background-position: center;
+}
+.icon-redeem-usd {
+    background: url(../svg/redeem-usd.svg) no-repeat;
+    background-position: center;
+}
+.icon-source-code {
+    background: url(../svg/source-code.svg) no-repeat;
+    background-position: center;
+}
+.icon-supply {
+    background: url(../svg/supply.svg) no-repeat;
+    background-position: center;
+}
