@@ -195,3 +195,68 @@
     background: url(../svg/supply.svg) no-repeat;
     background-position: center;
 }
+
+.s-box {
+    background-color: #eee;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    border: 1px solid #c2c2c2;
+}
+/* Clock */
+#container{
+    display: block;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #2a3052;
+  }
+  
+  .box{
+    display: block;
+    position: absolute;
+    height: 70px;
+    width: 10px;
+    background-color: #C80000; 
+    border-radius: 10px;
+  }
+  
+  
+  
+  .second{
+    height: 70px;
+    width: 2px;
+    
+    background-color: #2a3052;
+  }
+  
+  .minute{
+    height: 70px;
+    width: 5px;
+    
+    background-color: #2a3052;
+  }
+  
+  .hour{
+    height: 55px;
+    width: 5px;
+    background-color: #2a3052;
+  }
+
+  /* SVG */
+  .window {
+      fill: #e98024;
+      stroke: #e98024;
+  }
+
+
+
+
+  #sash {
+      cursor: pointer;
+  }
