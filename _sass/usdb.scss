@@ -103,6 +103,35 @@
 .bottom-30 {
     margin-bottom: 30px;
 }
+.separator-line-thin-gray-xs {
+    height: 1px;
+    background-color: #dedede;
+    margin: 0;
+}
+
+.separator-line-thin-gray {
+    height: 1px;
+    background-color: #dedede;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.separator {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 1px;
+}
+
+.separator-md {
+    height: 20px
+}
+
+.separator-lg {
+    height: 30px
+}
+
+.separator-xl {
+    height: 50px
+}
 .icon-xs {
     display: inline-flex;
     margin-left: auto;
@@ -254,9 +283,3 @@
       stroke: #e98024;
   }
 
-
-
-
-  #sash {
-      cursor: pointer;
-  }

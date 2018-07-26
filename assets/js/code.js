@@ -1,41 +1,5 @@
 
 
-TweenMax.to("#Mouse *", 0.5, {fill:"grey", stroke:"black", ease: Power4.easeInOut});
-
-//$(".ico-1").mouseover(function() {
-//    TweenMax.to(".ico-1", 0.5, {width:"100%", height:300, color:"#FC0", ease: Power4.easeInOut});
-//});
-
-$(".ico-1").click(function() {
-    TweenMax.to(".ico-1", 0.5, {width:"100%", height:300, color:"#FC0", ease: Power4.easeInOut});
-});
-
-$("#frame").click(function() {
-  TweenMax.to("#frame", 0.5, {fill:"red", ease: Power4.easeInOut})
-  TweenMax.to("#sash", 0.5, {fill:"red", ease: Power4.easeInOut});
-});
-
-$("#sash").click(function() {
-  TweenMax.to("#MyTestPath", 0.5, {fill:"pink", stroke:"red", ease: Power4.easeInOut})
-  TweenMax.to("#sash .cls-5", 0.5, {width:"100%", height:300, fill:"red", ease: Power4.easeInOut});
-});
-
-$(".s-box").click(function() {
-  TweenMax.to(".ico-1", .5, {fill:"#e98024", stroke:"red", ease: Power4.easeInOut});
-  TweenMax.to(".s-box", .5, {backgroundColor:"#2a3052", ease: Power4.easeInOut});
-   
-});
-
-
-  //TweenMax.to(".cls-1", 0.5, {stroke:"blue", fill:"red", ease: Power4.easeInOut});
-  //TweenMax.to(".cls-2", 0.5, {stroke:"black", fill:"white", ease: Power4.easeInOut});
-
-  
-
-
-
-
-
 
 
 // Clock
