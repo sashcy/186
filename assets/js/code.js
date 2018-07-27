@@ -1,4 +1,29 @@
 
+$("#sun").mouseover(function() {
+  TweenMax.to("#sun2-window .navyblue", 0.5, {fill:"#e98024", ease: Power4.easeInOut});
+  TweenMax.to("#sun1-window .navyblue", 0.5, {fill:"#e98024", ease: Power4.easeInOut});
+});
+$("#sun").mouseout(function() {
+  TweenMax.to("#sun2-window .navyblue", 0.5, {fill:"#2a3052", ease: Power4.easeInOut});
+  TweenMax.to("#sun1-window .navyblue", 0.5, {fill:"#2a3052", ease: Power4.easeInOut});
+});
+//TweenMax.to(".s-box", 0.5, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
+//TweenMax.to("##sun2-window", 0.5, {filter: "drop-shadow(12px 12px 7px rgba(0,0,0,0.5))", ease: Power4.easeInOut});
+$(".s-box").mouseover(function() {
+  TweenMax.to(".s-box", 0.3, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
+});
+$(".s-box").mouseout(function() {
+  TweenMax.to(".s-box", 0.3, {boxShadow: "none", ease: Power4.easeInOut});
+});
+$(".s-box").click(function() {
+  TweenMax.to(".s-box", 0.3, {boxShadow: "0 27px 55px 0 #e98024", ease: Power4.easeInOut});
+});
+
+$("#bird").mouseover(function() {
+  TweenMax.to("#bird", 0.3, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
+});
+
+
 
 
 
