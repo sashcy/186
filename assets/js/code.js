@@ -7,6 +7,16 @@ $("#sun").mouseout(function() {
   TweenMax.to("#sun .outer", 0.5, {fill:"#F5C525", ease: Power4.easeInOut});
   TweenMax.to("#sun .test ", 0.5, {fill:"#F8A805", ease: Power4.easeInOut});
 });
+
+$("#tree3-window").mouseover(function() {
+  TweenMax.to("#tree3-window *", 0.5, {fill:"blue", ease: Power4.easeInOut});
+});
+$("#tree3-window").mouseout(function() {
+  TweenMax.to("#tree3-window *", 0.5, {fill:"#F5C525", ease: Power4.easeInOut});
+});
+
+
+
 //TweenMax.to(".s-box", 0.5, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
 //TweenMax.to("##sun2-window", 0.5, {filter: "drop-shadow(12px 12px 7px rgba(0,0,0,0.5))", ease: Power4.easeInOut});
 $(".s-box").mouseover(function() {
