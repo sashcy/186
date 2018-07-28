@@ -1,11 +1,20 @@
 
 $("#sun").mouseover(function() {
-  TweenMax.to("#sun .outer", 0.5, {fill:"blue", ease: Power4.easeInOut});
-  TweenMax.to("#sun .test", 0.5, {fill:"red", ease: Power4.easeInOut});
+  TweenMax.to("#sun2-window *, #sun1-window *", 0.5, {fill:"blue", ease: Power4.easeInOut});
+  //TweenMax.to("#sun .test", 0.5, {fill:"red", ease: Power4.easeInOut});
 });
 $("#sun").mouseout(function() {
-  TweenMax.to("#sun .outer", 0.5, {fill:"#F5C525", ease: Power4.easeInOut});
-  TweenMax.to("#sun .test ", 0.5, {fill:"#F8A805", ease: Power4.easeInOut});
+  TweenMax.to("#sun2-window *, #sun1-window *", 0.5, {fill:"red", ease: Power4.easeInOut});
+  //TweenMax.to("#sun11-window *", 0.5, {fill:"#F8A805", ease: Power4.easeInOut});
+});
+
+$("#sunT").mouseover(function() {
+  TweenMax.to("#sunT .outer", 0.5, {fill:"blue", ease: Power4.easeInOut});
+  TweenMax.to("#sunT .test", 0.5, {fill:"red", ease: Power4.easeInOut});
+});
+$("#sunT").mouseout(function() {
+  TweenMax.to("#sunT .outer", 0.5, {fill:"#F5C525", ease: Power4.easeInOut});
+  TweenMax.to("#sunT .test ", 0.5, {fill:"#F8A805", ease: Power4.easeInOut});
 });
 
 $("#tree3-window").mouseover(function() {
