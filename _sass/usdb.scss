@@ -14,15 +14,16 @@
 .section-md {
     padding: 30px 0;
 }
+.section-lg {
+    padding: 80px 0;
+}
 .section-title {
     font-size: 36px;
     font-weight: 300;
-    margin-top: 30px;
+    margin-top: 80px;
     margin-bottom: 0px;
 }
-.section-intro {
-    margin-bottom: 50px;
-}
+
 .coin-section {
     border-top: 3px solid #e98024;
     border-bottom: 3px solid #e98024;
@@ -85,24 +86,7 @@
     width: 150px;
     max-width: 100%;
 }
-.title-xl {
-    font-size: 36px;
-}
-.ft-300 {
-    font-weight: 300;
-}
-.ft-400 {
-    font-weight: 400;
-}
-.table-col {
-    border-bottom: 3px solid #f2f2f2;
-}
-.bottom--30 {
-    margin-bottom: -30px;
-}
-.bottom-30 {
-    margin-bottom: 30px;
-}
+
 .separator-line-thin-gray-xs {
     height: 1px;
     background-color: #dedede;
@@ -313,6 +297,28 @@
 }
 
 /* Modifiers */
+
+.title-xl {
+    font-size: 36px;
+}
+.ft-100 {
+    font-weight: 100;
+}
+.ft-300 {
+    font-weight: 300;
+}
+.ft-400 {
+    font-weight: 400;
+}
+.table-col {
+    border-bottom: 3px solid #f2f2f2;
+}
+.bottom--30 {
+    margin-bottom: -30px;
+}
+.bottom-30 {
+    margin-bottom: 30px;
+}
 
 .dark-grey-bg {
     background: #dedede;
