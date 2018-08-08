@@ -113,3 +113,19 @@ $(document).ready(function() {
 
 
   // Test
+  var player = DM.player(document.getElementById('player'), {
+    video: 'k7EQh890op4QYyrwieo',
+    width: '100%',
+    height: '100%',
+    params: {
+      autoplay: false,
+      related: false,
+      controls: false,
+      mute: false
+    }
+  });
+  player.addEventListener('end', function (evt) { evt.target.currentTime = 0; evt.target.play() } );
+  function func_Play()
+    { player.play(); }
+  function func_Pause()
+    { player.pause(); }
