@@ -120,7 +120,7 @@ $(document).ready(function() {
     params: {
       autoplay: false,
       related: false,
-      controls: false,
+      controls: true,
       mute: false
     }
   });
