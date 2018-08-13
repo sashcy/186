@@ -8,8 +8,16 @@ $("#sun").mouseout(function() {
   //TweenMax.to("#sun11-window *", 0.5, {fill:"#F8A805", ease: Power4.easeInOut});
 });
 
-$("#sunT").mouseover(function() {
-  TweenMax.to("#sunT .outer", 0.5, {fill:"blue", ease: Power4.easeInOut});
+$("#Board ").mouseover(function() {
+  TweenMax.to("#BTC .cls-8", 0.5, {stroke:"red", ease: Power4.easeInOut});
+  TweenMax.to("#Web_Designer #Board", 0.5, {x:-1000, y:0, scale:3,  ease: Power4.easeInOut});
+  TweenMax.to("#DeskTop ", 0.5, {opacity:0,  ease: Power4.easeInOut});
+  TweenMax.to("#sunT .test", 0.5, {fill:"red", ease: Power4.easeInOut});
+});
+$("#Board").mouseout(function() {
+  TweenMax.to("#BTC .cls-8", 0.5, {stroke:"red", ease: Power4.easeInOut});
+  TweenMax.to("#Web_Designer #Board", 0.5, {x:0, y:0, scale:1,  ease: Power4.easeInOut});
+  TweenMax.to("#DeskTop ", 0.5, {opacity:1,  ease: Power4.easeInOut});
   TweenMax.to("#sunT .test", 0.5, {fill:"red", ease: Power4.easeInOut});
 });
 $("#sunT").mouseout(function() {
@@ -112,7 +120,7 @@ $(document).ready(function() {
 
 
 
-  // Test
+  // video
   var player = DM.player(document.getElementById('player'), {
     video: 'k7EQh890op4QYyrwieo',
     width: '100%',
