@@ -122,7 +122,7 @@ $(document).ready(function() {
 
   // video
   var player = DM.player(document.getElementById('player'), {
-    video: 'k7EQh890op4QYyrwieo',
+    video: 'k57uhyDjfj8R6yrGTSo',
     width: '100%',
     height: '100%',
     params: {
