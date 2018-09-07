@@ -2,7 +2,6 @@
     'rules': {
         'color-hex-case': 'lower',
         'color-named': 'never',
-        'color-no-hex': true,
         'color-no-invalid-hex': true,
         'font-family-name-quotes': 'always-unless-keyword',
         'function-calc-no-unspaced-operator': true,

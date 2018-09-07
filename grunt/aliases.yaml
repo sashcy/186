@@ -6,20 +6,12 @@ default:
   - 'eslint'
   - 'uglify'
   - 'copy'
+  - 'imagemin'
   - 'htmlmin'
-
-serve:
   - 'connect:livereload'
   - 'watch'
 
-work:
-  - 'stylelint'
-  - 'sass'
-  - 'postcss'
-  - 'cssmin'
-  - 'eslint'
-  - 'uglify'
-  - 'copy'
+serve:
   - 'connect:livereload'
   - 'watch'
   

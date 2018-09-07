@@ -2,7 +2,9 @@ module.exports = {
     all: {
       files: [{
         expand: true,
-        src: ['dist/assets/css/*.css', '!*.min.css'],
+        cwd: 'dist/assets/css',
+        src: ['*.css', '!*.min.css'],
+        dest: 'dist/assets/css',
         ext: '.min.css'
       }]
     }

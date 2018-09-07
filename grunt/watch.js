@@ -12,6 +12,10 @@ module.exports = function (grunt) {
       files: ['src/sass/**/*.scss'],
       tasks: ['stylelint', 'sass', 'cssmin'],
     },
+    images: {
+      files: ['src/assets/images/*'],
+      tasks: ['imagemin'],
+    },
     options: {
       spawn        : false,
       interrupt    : true,
