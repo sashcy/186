@@ -1,9 +1,0 @@
-{% assign path = page.path | remove_first:'pages' | remove_last %}
-{% if path contains "/en/" %}{% assign siteLang = 'en' %}{% assign LangUrl = '/en/' %}
-{% elsif path contains "/ru/" %}{% assign siteLang = 'ru' %}{% assign LangUrl = '/ru/' %}
-{% elsif path contains "/id/" %}{% assign siteLang = 'id' %}{% assign LangUrl = '/id/' %}
-{% else %}
-{% assign siteLang = 'en' %}{% assign LangUrl = '/en/' %}
-{% endif %}
-
-{% assign translate = site.data.translations[siteLang] %}
