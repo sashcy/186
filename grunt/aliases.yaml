@@ -7,9 +7,21 @@ default:
   - 'uglify'
   - 'copy'
   - 'imagemin'
-  - 'htmlmin'
   - 'connect:livereload'
   - 'watch'
+
+work:
+  - 'stylelint'
+  - 'sass'
+  - 'postcss'
+  - 'cssmin'
+  - 'eslint'
+  - 'uglify'
+  - 'copy'
+  - 'imagemin'
+  - 'htmlmin'
+  - 'connect:livereload'
+  - 'watch'  
 
 serve:
   - 'connect:livereload'
