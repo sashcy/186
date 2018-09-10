@@ -238,57 +238,6 @@
     background-position: center;
 }
 
-.s-box {
-    background-color: #eeeeee;
-    padding: 20px;
-    width: 200px;
-    height: 200px;
-    border: 1px solid #c2c2c2;
-    cursor: pointer;
-}
-
-/* Clock */
-
-#container {
-    display: block;
-    position: relative;
-    height: 200px;
-    width: 200px;
-    background-color: #ffffff;
-    border-radius: 200px;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    border: 10px solid #2a3052;
-}
-
-.box {
-    display: block;
-    position: absolute;
-    height: 70px;
-    width: 10px;
-    background-color: #c80000;
-    border-radius: 10px;
-}
-
-.cond {
-    height: 70px;
-    width: 2px;
-    background-color: #2a3052;
-}
-
-.minute {
-    height: 70px;
-    width: 5px;
-    background-color: #2a3052;
-}
-
-.hour {
-    height: 55px;
-    width: 5px;
-    background-color: #2a3052;
-}
-
 /* SVG */
 
 .window {
