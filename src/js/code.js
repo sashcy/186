@@ -48,3 +48,11 @@ $(".s-box").click(function() {
 $("#bird").mouseover(function() {
   TweenMax.to("#bird", 0.3, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
 });
+
+
+  $('#accordion').accordion({
+      heightStyle: 'content',
+      collapsible: true,
+      active     : false,
+
+  });
