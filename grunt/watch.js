@@ -16,6 +16,10 @@ module.exports = function (grunt) {
       files: ['src/assets/images/*'],
       tasks: ['imagemin'],
     },
+    svg: {
+      files: ['src/assets/svg/*'],
+      tasks: ['copy:svg'],
+    },
     options: {
       spawn        : false,
       interrupt    : true,
