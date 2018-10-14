@@ -1207,7 +1207,6 @@ img {
 
 /* stylelint-enable number-max-precision */
 .topnav {
-  overflow: hidden;
   text-align: right;
   margin-top: 15px; }
 
@@ -1266,15 +1265,8 @@ img {
     width: 100%;
     text-align: left; }
   .topnav {
-    overflow: hidden;
+    overflow: visible;
     width: 100%; } }
-
-.navbar-fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030; }
 
 @media (min-width: 1200px) {
   .navbar-custom {
@@ -1292,6 +1284,13 @@ img {
     box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); }
   .grill {
     display: none; } }
+
+.navbar-fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030; }
 
 .top-nav-collapse a {
   color: #ffffff; }
