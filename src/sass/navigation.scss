@@ -30,19 +30,39 @@
     color: #cccccc;
 }
 
-@media screen and (max-width: 992px) {
-    .topnav {
-        text-align: center;
-    }
+.grill {
+    display: block;
+    position: fixed;
+    top: 27px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    z-index: 9;
 }
 
-@media screen and (max-width: 768px) {
+.grill-ico {
+    background: url('../svg/menu.svg') no-repeat;
+    background-position: center;
+}
+
+@media screen and (max-width: 1198px) {
+    .navbar-fixed-top {
+        position: relative;
+        background: #2a3052;
+        border-bottom: 0px solid #e98024;
+    }
     .topnav a {
         display: block;
+        width: 100%;
+        text-align: left;
     }
     .topnav {
         overflow: hidden;
-        text-align: center;
+        width: 100%;
     }
 }
 
@@ -54,7 +74,7 @@
     z-index: 1030;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
     .navbar-custom {
         padding: 20px 0;
         border-bottom: none;
@@ -70,13 +90,8 @@
         border-bottom: 0px solid #e98024;
         box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
     }
-}
-
-@media (max-width: 992px) {
-    .navbar-fixed-top {
-        position: relative;
-        background: #2a3052;
-        border-bottom: 0px solid #e98024;
+    .grill {
+        display: none;
     }
 }
 
@@ -112,4 +127,12 @@
 
 .topbar .language-wrapper .language {
     padding: 5px 1px;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
 }

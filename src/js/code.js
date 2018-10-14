@@ -1,4 +1,61 @@
-function collapseNavbar(){$(".navbar").offset().top>50?$(".navbar-fixed-top").addClass("top-nav-collapse"):$(".navbar-fixed-top").removeClass("top-nav-collapse")}$(window).scroll(collapseNavbar),$(document).ready(collapseNavbar),$(function(){document.documentElement.lang;$("#language_select select").on("change",function(){var a=$(this).val();window.location.href="/"+("en"===a?"":a)}),$(".nav-button").click(function(){$(".nav-button,.primary-nav").toggleClass("open")})}),$(function(){$("a.page-scroll").bind("click",function(a){var n=$(this);$("html, body").stop().animate({scrollTop:$(n.attr("href")).offset().top},800,"easeInOutExpo"),a.preventDefault()})});
+// jQuery to collapse the navbar on scroll
+function collapseNavbar() {
+  if ($('.navbar').offset().top > 50) {
+      $('.navbar-fixed-top').addClass('top-nav-collapse');
+  } else {
+      $('.navbar-fixed-top').removeClass('top-nav-collapse');
+  }
+}
+$(window).scroll(collapseNavbar);
+$(document).ready(collapseNavbar);
+
+
+// jQery for page scrolling feature - requires jQuery Easing plugin
+$('.page-scroll').bind('click', function(event) {
+  var $anchor = $(this);
+  $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top,
+  }, 800, 'easeInOutExpo');
+    if ($(window).width() < 1200) {
+      $('.topnav').toggle(500, 'easeInOutExpo');
+    }
+  event.preventDefault();
+});
+
+$('.logo-scroll').on('click', function(event) {
+  var $anchor = $(this);
+  $('html, body').stop().animate({
+      scrollTop: $($anchor.attr('href')).offset().top,
+  }, 800, 'easeInOutExpo');
+  event.preventDefault();
+});
+
+$(document).ready(function(){
+  var windowWidth;
+  function recalculate() {
+    windowWidth = $(window).width();
+    if ( windowWidth < 1200) {
+      $('.page-scroll').addClass('mobile');
+      $(".topnav").css('display', 'none' );
+    }
+    else {
+        $('.page-scroll').removeClass('mobile');
+        if ($(".topnav").css('display') == 'none' ){
+          $('.topnav').removeAttr( 'style' );
+      }
+    }
+  };    
+  recalculate();
+  $(window).resize(recalculate);
+  });
+
+$('a.mobile').click(function(){
+  $('.topnav').toggle(500, 'easeInOutExpo');
+});
+
+$('#push').click(function(){
+  $('.topnav').toggle(500, 'easeInOutExpo');
+});
 
 
 
@@ -56,3 +113,4 @@ $('#accordion').accordion({
     active     : false,
 
 });
+

@@ -5,13 +5,9 @@
     margin-top: 0px;
 }
 
-@media screen and (max-width: 992px) {
-    .logo-wrapper {
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-        display: block !important;
-        padding-top: 0px;
+@media screen and (max-width: 320px) {
+    .mobile-hide {
+        display: none;
     }
 }
 
@@ -64,15 +60,6 @@
     max-width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-    .md-center {
-        text-align: center !important;
-    }
-    .home--header {
-        min-height: 50vh;
-    }
-}
-
 @media screen and (max-width: 992px) {
     .mb-bottom-30 {
         margin-bottom: 50px;
@@ -84,6 +71,24 @@
     }
     .lg-center {
         text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 574px) {
+    .md-center {
+        text-align: center !important;
+    }
+    .header-title {
+        font-size: 36px;
+        line-height: 40px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .header-sub {
+        font-size: 26px;
+        line-height: 30px;
+        font-weight: 300;
+        text-align: center;
     }
 }
 
