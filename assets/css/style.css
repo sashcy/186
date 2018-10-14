@@ -1455,16 +1455,35 @@ img {
   border-bottom: 0px solid #dedede;
   color: #cccccc; }
 
-@media screen and (max-width: 992px) {
-  .topnav {
-    text-align: center; } }
+.grill {
+  display: block;
+  position: fixed;
+  top: 27px;
+  right: 30px;
+  width: 30px;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer;
+  z-index: 9; }
 
-@media screen and (max-width: 768px) {
+.grill-ico {
+  background: url("../svg/menu.svg") no-repeat;
+  background-position: center; }
+
+@media screen and (max-width: 1198px) {
+  .navbar-fixed-top {
+    position: relative;
+    background: #2a3052;
+    border-bottom: 0px solid #e98024; }
   .topnav a {
-    display: block; }
+    display: block;
+    width: 100%;
+    text-align: left; }
   .topnav {
     overflow: hidden;
-    text-align: center; } }
+    width: 100%; } }
 
 .navbar-fixed-top {
   position: fixed;
@@ -1473,7 +1492,7 @@ img {
   left: 0;
   z-index: 1030; }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .navbar-custom {
     padding: 20px 0;
     border-bottom: none;
@@ -1486,13 +1505,9 @@ img {
     color: #ffffff;
     border-bottom: 0px solid #e98024;
     -webkit-box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1);
-            box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); } }
-
-@media (max-width: 992px) {
-  .navbar-fixed-top {
-    position: relative;
-    background: #2a3052;
-    border-bottom: 0px solid #e98024; } }
+            box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.1); }
+  .grill {
+    display: none; } }
 
 .top-nav-collapse a {
   color: #ffffff; }
@@ -1523,18 +1538,20 @@ img {
 .topbar .language-wrapper .language {
   padding: 5px 1px; }
 
+.block {
+  display: block; }
+
+.hidden {
+  display: none; }
+
 .logo-wrapper {
   padding: 3px 0;
   margin: 0;
   margin-top: 0px; }
 
-@media screen and (max-width: 992px) {
-  .logo-wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    display: block !important;
-    padding-top: 0px; } }
+@media screen and (max-width: 320px) {
+  .mobile-hide {
+    display: none; } }
 
 .section-md {
   padding: 30px 0; }
@@ -1582,12 +1599,6 @@ img {
   width: 800px;
   max-width: 100%; }
 
-@media only screen and (max-width: 768px) {
-  .md-center {
-    text-align: center !important; }
-  .home--header {
-    min-height: 50vh; } }
-
 @media screen and (max-width: 992px) {
   .mb-bottom-30 {
     margin-bottom: 50px; }
@@ -1597,6 +1608,20 @@ img {
     font-weight: 300; }
   .lg-center {
     text-align: center !important; } }
+
+@media only screen and (max-width: 574px) {
+  .md-center {
+    text-align: center !important; }
+  .header-title {
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 300;
+    text-align: center; }
+  .header-sub {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: center; } }
 
 .usb-coin {
   width: 150px;
