@@ -332,7 +332,7 @@
     max-width: 130px;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50px;
+    padding-bottom: 10px;
 }
 
 .podcast-controls {
@@ -342,6 +342,9 @@
     border: 2px solid #2a3052;
     border-radius: 5px;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .podcast-playback {
@@ -396,6 +399,14 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
+    position: relative;
+}
+
+.banner-monitor h1 {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
 }
 
 /* Calendar */
@@ -438,4 +449,9 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 0px;
+}
+
+/* Modifiers */
+.block-element {
+    display: block;
 }
