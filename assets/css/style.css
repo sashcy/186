@@ -1412,17 +1412,6 @@ img {
   width: 150px;
   max-width: 100%; }
 
-/* Banner */
-.interactive {
-  width: 100%;
-  background: url("../svg/inateractive-bg.svg") no-repeat;
-  background-size: cover;
-  padding: 20px;
-  background-position: center;
-  position: relative;
-  display: flex;
-  align-items: center; }
-
 .separator-line-thin-gray-xs {
   height: 1px;
   background-color: #dedede;
@@ -1591,3 +1580,122 @@ img {
 
 #video, #why-usb, #usb-clients, #get-started, #benefits, #tech, #faq {
   padding-bottom: 50px; }
+
+/* Banner */
+#banner {
+  width: 100%;
+  background: url("../svg/inateractive-bg.svg") no-repeat;
+  background-size: cover;
+  padding: 0 20px;
+  padding-top: 100px;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center; }
+
+/* Clock */
+.banner-clock {
+  max-width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  position: relative; }
+
+/* Headphones */
+.banner-headphones {
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px; }
+
+.podcast-controls {
+  width: 150px;
+  height: 55px;
+  background-color: #dedede;
+  border: 2px solid #2a3052;
+  border-radius: 5px;
+  padding: 5px; }
+
+.podcast-playback {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 40px;
+  max-width: 40%;
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer; }
+
+.podcast-source {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  max-width: 30%;
+  height: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  cursor: pointer; }
+
+.podcast-pause {
+  background: url("../svg/pause.svg") no-repeat;
+  background-position: center; }
+
+.podcast-play {
+  background: url("../svg/play.svg") no-repeat;
+  background-position: center; }
+
+.podcast-back {
+  background: url("../svg/back.svg") no-repeat;
+  background-position: center; }
+
+.podcast-next {
+  background: url("../svg/next.svg") no-repeat;
+  background-position: center; }
+
+/* Monitor */
+.banner-monitor {
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; }
+
+/* Calendar */
+.banner-calendar {
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+  position: relative; }
+
+.banner-calendar-date {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  right: 0;
+  font-size: 36px;
+  font-weight: 300; }
+
+.banner-calendar-month {
+  position: absolute;
+  top: 23px;
+  left: 0;
+  right: 0;
+  color: #ffffff; }
+
+/* Cactus */
+.banner-cactus {
+  max-width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; }
+
+/* Books */
+.banner-books {
+  max-width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px; }

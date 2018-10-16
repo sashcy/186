@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 756.343 602.45">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dedede;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-1, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #2a3052;
+      }
+    </style>
+  </defs>
+  <g id="monitor" transform="translate(-629.012 -232.735)">
+    <g id="monitor-frame">
+      <path id="Path_1" data-name="Path 1" class="cls-1" d="M1178.892,693.761H466.851A20.675,20.675,0,0,1,446.2,673.11V186.251A20.675,20.675,0,0,1,466.851,165.6h712.041a20.675,20.675,0,0,1,20.651,20.651V673.11A20.767,20.767,0,0,1,1178.892,693.761Z" transform="translate(184.312 68.635)"/>
+    </g>
+    <g id="monitor-screen">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-2" width="749.666" height="405.244" transform="translate(632.351 284.873)"/>
+    </g>
+    <g id="monitor-powerbutton">
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="15.842" cy="15.842" r="15.842" transform="translate(991.342 712.183)"/>
+    </g>
+    <g id="monitor-stand-part1">
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M784.743,597.01H673l24.329-57.71h63.085Z" transform="translate(278.313 223.52)"/>
+    </g>
+    <g id="monitor-stand-part2">
+      <path id="Path_3" data-name="Path 3" class="cls-1" d="M864.108,594H630.439a1.872,1.872,0,0,1-1.839-1.839V580.139a1.872,1.872,0,0,1,1.839-1.839H863.967a1.872,1.872,0,0,1,1.839,1.839v12.023A1.67,1.67,0,0,1,864.108,594Z" transform="translate(259.91 239.685)"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" class="cls-4" x2="749.666" transform="translate(632.351 284.307)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-4" x2="749.666" transform="translate(632.351 690.966)"/>
+  </g>
+</svg>

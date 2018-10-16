@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 239.657 200.035">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f2f2f2;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #2a3052;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #2a3052;
+      }
+
+      .cls-3 {
+        fill: #dedede;
+      }
+    </style>
+  </defs>
+  <g id="books" transform="translate(-1730.438 -634.726)">
+    <path id="Path_4" data-name="Path 4" class="cls-1" d="M1337.172,638.38h26.875a7,7,0,0,0,7.072-7.072V477.272a7,7,0,0,0-7.072-7.072h-26.875a7,7,0,0,0-7.072,7.072V631.166A7.124,7.124,0,0,0,1337.172,638.38Z" transform="translate(550.657 194.881)"/>
+    <path id="Path_5" data-name="Path 5" class="cls-2" d="M1367.372,645.562h30.977a7,7,0,0,0,7.072-7.072V456.872a7,7,0,0,0-7.072-7.072h-30.977a7,7,0,0,0-7.072,7.072V638.489A7.093,7.093,0,0,0,1367.372,645.562Z" transform="translate(563.174 186.426)"/>
+    <path id="Path_6" data-name="Path 6" class="cls-3" d="M1227.872,619.538l25.177,17.964a7.074,7.074,0,0,0,9.9-1.7l105.378-147.953a7.074,7.074,0,0,0-1.7-9.9l-25.178-17.964a7.074,7.074,0,0,0-9.9,1.7L1226.175,609.636A7.18,7.18,0,0,0,1227.872,619.538Z" transform="translate(507.054 190.102)"/>
+  </g>
+</svg>

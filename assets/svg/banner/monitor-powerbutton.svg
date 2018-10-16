@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.684 34.684">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="monitor-powerbutton" transform="translate(-989.842 -710.683)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="15.842" cy="15.842" r="15.842" transform="translate(991.342 712.183)"/>
+  </g>
+</svg>

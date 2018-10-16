@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.483 18.094">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2a3052;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #2a3052;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="previous-button" transform="translate(81.582 -25.416)">
+    <path id="Path_18" data-name="Path 18" class="cls-1" d="M22.8,27.246,38.08,18.4V36.092Z" transform="translate(-102.178 7.418)"/>
+    <line id="Line_18" data-name="Line 18" class="cls-2" y2="18.094" transform="translate(-80.081 25.416)"/>
+  </g>
+</svg>

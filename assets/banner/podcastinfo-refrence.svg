@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 387.73 68.927">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dedede;
+      }
+
+      .cls-1, .cls-2, .cls-4, .cls-5 {
+        stroke: #2a3052;
+        stroke-width: 3px;
+      }
+
+      .cls-1, .cls-5 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2, .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-3, .cls-6 {
+        fill: #2a3052;
+      }
+
+      .cls-6 {
+        font-size: 16px;
+        font-family: Roboto-Light, Roboto;
+        letter-spacing: -0.02em;
+        font-weight: 300;
+      }
+
+      .cls-7 {
+        font-family: Roboto-Regular, Roboto;
+        font-weight: 400;
+      }
+    </style>
+  </defs>
+  <g id="podcastinfo-refrence" transform="translate(-44.587 -730.036)">
+    <g id="Group_190" data-name="Group 190" transform="translate(144.587 730.036)">
+      <g id="podcastbox">
+        <g id="Group_189" data-name="Group 189">
+          <path id="Path_15" data-name="Path 15" class="cls-1" d="M280.02,67.427H-92.166A6.344,6.344,0,0,1-98.5,61.093V7.834A6.344,6.344,0,0,1-92.166,1.5H279.891a6.344,6.344,0,0,1,6.334,6.334V60.964A6.188,6.188,0,0,1,280.02,67.427Z" transform="translate(0 0)"/>
+        </g>
+        <line id="Line_60" data-name="Line 60" class="cls-2" y2="66" transform="translate(42.913 1.464)"/>
+      </g>
+    </g>
+    <g id="next-button" transform="translate(144.587 730.036)">
+      <path id="Path_17" data-name="Path 17" class="cls-3" d="M124.38,27.246,109.1,18.4V36.092Z" transform="translate(-101.725 7.418)"/>
+      <line id="Line_17" data-name="Line 17" class="cls-4" y2="18.094" transform="translate(23.358 25.416)"/>
+    </g>
+    <g id="previous-button" transform="translate(144.587 730.036)">
+      <path id="Path_18" data-name="Path 18" class="cls-3" d="M22.8,27.246,38.08,18.4V36.092Z" transform="translate(-102.178 7.418)"/>
+      <line id="Line_18" data-name="Line 18" class="cls-4" y2="18.094" transform="translate(-80.081 25.416)"/>
+    </g>
+    <g id="pause-button" transform="translate(144.587 730.036)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-5" cx="18.094" cy="18.094" r="18.094" transform="translate(-45.374 16.369)"/>
+      <line id="Line_19" data-name="Line 19" class="cls-4" y2="16.764" transform="translate(-32.646 25.969)"/>
+      <line id="Line_20" data-name="Line 20" class="cls-4" y2="16.764" transform="translate(-22.536 25.969)"/>
+    </g>
+    <text id="Name_of_the_Podcast-_Subject" data-name="Name of the Podcast- Subject" class="cls-6" transform="translate(308 772)"><tspan x="-101.629" y="0">Name of the Podcast- </tspan><tspan class="cls-7" y="0">Subject</tspan></text>
+  </g>
+</svg>
