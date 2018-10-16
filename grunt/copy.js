@@ -6,7 +6,7 @@ module.exports = {
     },
     svg: {
         files: [
-            { expand: true, cwd: 'src/assets/', src: ['svg/*.svg'],                           dest: 'dist/assets' },
+            { expand: true, cwd: 'src/assets/', src: ['svg/**'],                           dest: 'dist/assets' },
         ],
     },
 };

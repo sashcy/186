@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 263.261 251.238">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-3 {
+        stroke: #2a3052;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+
+      .cls-2 {
+        fill: #2a3052;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke-linecap: round;
+      }
+    </style>
+  </defs>
+  <g id="calendar" transform="translate(-1604.709 -126.933)">
+    <path id="Path_7" data-name="Path 7" class="cls-1" d="M1363.729,330.169h-195.2A32.628,32.628,0,0,1,1136,297.636v-152.9a32.628,32.628,0,0,1,32.533-32.533h195.2a32.628,32.628,0,0,1,32.533,32.533v152.9A32.628,32.628,0,0,1,1363.729,330.169Z" transform="translate(470.209 46.503)"/>
+    <path id="Path_8" data-name="Path 8" class="cls-2" d="M1136.6,181.6V143.021c0-16.125,14.711-29.421,32.533-29.421h195.2c17.964,0,32.533,13.155,32.533,29.421v40.421" transform="translate(470.458 46.083)"/>
+    <g id="Group_3" data-name="Group 3" transform="translate(1679.054 128.433)">
+      <line id="Line_4" data-name="Line 4" class="cls-3" y1="29.562"/>
+      <line id="Line_5" data-name="Line 5" class="cls-3" y1="29.562" transform="translate(114.572)"/>
+    </g>
+  </g>
+</svg>

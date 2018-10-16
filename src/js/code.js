@@ -68,11 +68,11 @@ $("#sun").mouseout(function() {
   //TweenMax.to("#sun11-window *", 0.5, {fill:"#F8A805", ease: Power4.easeInOut});
 });
 
-$("#Headphone").mouseover(function() {
-  TweenMax.to("#Headphone *", 0.5, {stroke:"red", ease: Power4.easeInOut});
-  TweenMax.to("#Web_Designer #Board", 0.5, {x:-1000, y:0, scale:3,  ease: Power4.easeInOut});
-  TweenMax.to("#DeskTop ", 0.5, {opacity:0,  ease: Power4.easeInOut});
-  TweenMax.to("#sunT .test", 0.5, {fill:"red", ease: Power4.easeInOut});
+$("#table").mouseover(function() {
+  TweenMax.to("#table *", 0.5, {stroke:"red", ease: Power4.easeInOut});
+  //TweenMax.to("#table", 0.5, {x:-1000, y:0, scale:3,  ease: Power4.easeInOut});
+  //TweenMax.to("#table ", 0.5, {opacity:0,  ease: Power4.easeInOut});
+  TweenMax.to("#table *", 0.5, {fill:"red", ease: Power4.easeInOut});
 });
 $("#Headphone").mouseout(function() {
   TweenMax.to("#BTC .cls-8", 0.5, {stroke:"red", ease: Power4.easeInOut});
@@ -118,3 +118,23 @@ $('#accordion').accordion({
 
 });
 
+var podcast = document.getElementById('bannerPodcast'); 
+var podcastPlaying = false;
+
+$('.podcast-playback').click(function playAudio() {
+  if (podcast.paused) {
+  podcast.play();
+  $('.podcast-playback').addClass('podcast-pause');
+  $('.podcast-playback').removeClass('podcast-play');
+  } else {
+  podcast.pause();
+  $('.podcast-playback').addClass('podcast-play');
+  $('.podcast-playback').removeClass('podcast-pause');
+  }
+});
+
+var audio1 = document.getElementById("bannerPodcast");
+audio1.onended = function() {
+  $('.podcast-playback').addClass('podcast-play');
+  $('.podcast-playback').removeClass('podcast-pause');
+};

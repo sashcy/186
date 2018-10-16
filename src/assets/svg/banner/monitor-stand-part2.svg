@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.225 18.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dedede;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g id="monitor-stand-part2" transform="translate(-887.01 -816.485)">
+    <path id="Path_3" data-name="Path 3" class="cls-1" d="M864.108,594H630.439a1.872,1.872,0,0,1-1.839-1.839V580.139a1.872,1.872,0,0,1,1.839-1.839H863.967a1.872,1.872,0,0,1,1.839,1.839v12.023A1.67,1.67,0,0,1,864.108,594Z" transform="translate(259.91 239.685)"/>
+  </g>
+</svg>
