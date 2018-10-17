@@ -333,15 +333,16 @@
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 10px;
+    cursor: pointer;
 }
 
 .podcast-controls {
-    width: 150px;
-    height: 55px;
+    width: 120px;
+    height: 40px;
     background-color: #dedede;
     border: 2px solid #2a3052;
     border-radius: 5px;
-    padding: 5px;
+    padding: 3px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
@@ -351,9 +352,9 @@
     display: inline-block;
     margin-left: 10px;
     margin-right: 10px;
-    width: 40px;
-    max-width: 40%;
-    height: 40px;
+    width: 30px;
+    max-width: 100%;
+    height: 30px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -364,9 +365,10 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 30px;
-    max-width: 30%;
-    height: 30px;
+    margin-bottom: 3px;
+    width: 20px;
+    max-width: 100%;
+    height: 20px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -400,6 +402,12 @@
     margin-right: auto;
     margin-bottom: 0px;
     position: relative;
+    padding: 0;
+    cursor: pointer;
+}
+
+.banner-monitor svg {
+    margin-bottom: -5px;
 }
 
 .banner-monitor h1 {

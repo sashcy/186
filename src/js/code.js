@@ -96,20 +96,25 @@ $("#tree3-window").mouseout(function() {
 
 //TweenMax.to(".s-box", 0.5, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
 //TweenMax.to("##sun2-window", 0.5, {filter: "drop-shadow(12px 12px 7px rgba(0,0,0,0.5))", ease: Power4.easeInOut});
-$(".s-box").mouseover(function() {
-  TweenMax.to(".s-box", 0.3, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
+
+
+$(".banner-monitor").mouseover(function() {
+  TweenMax.to(".banner-monitor #monitor-screen *", 0.3, {fill:"#2a3052", ease: Power4.easeInOut});
+  TweenMax.to(".banner-monitor h1", 0.3, {y:0, color:"#ffffff", ease: Power4.easeInOut});
 });
-$(".s-box").mouseout(function() {
-  TweenMax.to(".s-box", 0.3, {boxShadow: "none", ease: Power4.easeInOut});
-});
-$(".s-box").click(function() {
-  TweenMax.to(".s-box", 0.3, {boxShadow: "0 27px 55px 0 #e98024", ease: Power4.easeInOut});
+$(".banner-monitor").mouseout(function() {
+  TweenMax.to(".banner-monitor #monitor-screen *", 0.3, {fill:"#ffffff", ease: Power4.easeInOut});
+  TweenMax.to(".banner-monitor h1", 0.3, {y:0, color:"#e98024", ease: Power4.easeInOut});
 });
 
-$("#bird").mouseover(function() {
-  TweenMax.to("#bird", 0.3, {boxShadow: "0 27px 55px 0 rgba(0, 0, 0, 0.3)", ease: Power4.easeInOut});
+$(".banner-headphones").mouseover(function() {
+  TweenMax.to(".banner-headphones img", 0.3, {fill:"#ffffff", stroke:"#ffffff", ease: Power4.easeInOut});
+  TweenMax.to(".banner-headphones img", 0.5, {scale:1.1, color:"#ffffff", ease: Power4.easeInOut});
 });
-
+$(".banner-headphones").mouseout(function() {
+  TweenMax.to(".banner-headphones img *", 0.3, {fill:"#ffffff", ease: Power4.easeInOut});
+  TweenMax.to(".banner-headphones img", 0.5, {scale:1, color:"#e98024", ease: Power4.easeInOut});
+});
 
 $('#accordion').accordion({
     heightStyle: 'content',
