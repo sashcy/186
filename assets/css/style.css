@@ -1914,21 +1914,25 @@ img {
 
 .banner-monitor h1 {
   position: absolute;
-  top: 80px;
+  top: 20%;
   left: 0;
   right: 0; }
 
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .banner-monitor h1 {
+    font-size: 22px; } }
+
 /* Calendar */
 .banner-calendar {
-  max-width: 130px;
+  max-width: 100px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   position: relative; }
 
 .banner-calendar-date {
   position: absolute;
-  top: 65px;
+  top: 45px;
   left: 0;
   right: 0;
   font-size: 36px;
@@ -1936,7 +1940,7 @@ img {
 
 .banner-calendar-month {
   position: absolute;
-  top: 23px;
+  top: 15px;
   left: 0;
   right: 0;
   color: #ffffff; }
@@ -1958,3 +1962,22 @@ img {
 /* Modifiers */
 .block-element {
   display: block; }
+
+.js-hidden {
+  visibility: hidden; }
+
+.js-visible {
+  visibility: visible; }
+
+@media screen and (max-width: 768px) {
+  .banner-hide {
+    display: none; } }
+
+/* Tests */
+.s-box {
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc; }
