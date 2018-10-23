@@ -67,4 +67,3 @@ $('#accordion').accordion({
     active     : false,
 
 });
-
