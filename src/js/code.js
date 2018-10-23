@@ -61,6 +61,13 @@ $('#push').click(function(){
   $('.topnav').toggle(500, 'easeInOutExpo');
 });
 
+$('#accordion').accordion({
+    heightStyle: 'content',
+    collapsible: true,
+    active     : false,
+
+});
+
 
 
 $("#sun").mouseout(function() {
@@ -108,19 +115,21 @@ $(".banner-monitor").mouseout(function() {
 });
 
 $(".banner-headphones").mouseover(function() {
-  TweenMax.to(".banner-headphones img", 0.3, {fill:"#ffffff", stroke:"#ffffff", ease: Power4.easeInOut});
-  TweenMax.to(".banner-headphones img", 0.5, {scale:1.1, color:"#ffffff", ease: Power4.easeInOut});
+  TweenMax.to(".banner-headphones img", 0.5, {y:-20, ease: Power4.easeInOut});
 });
 $(".banner-headphones").mouseout(function() {
-  TweenMax.to(".banner-headphones img *", 0.3, {fill:"#ffffff", ease: Power4.easeInOut});
-  TweenMax.to(".banner-headphones img", 0.5, {scale:1, color:"#e98024", ease: Power4.easeInOut});
+  TweenMax.to(".banner-headphones img", 0.5, {y:0, ease: Power4.easeInOut});
 });
 
-$('#accordion').accordion({
-    heightStyle: 'content',
-    collapsible: true,
-    active     : false,
+var checkPlayer = document.querySelector(".podcast-controls");
 
+checkPlayer.classList.contains("js-hidden");
+
+
+
+$('.banner-headphones').click(function(){
+  $('.podcast-controls').removeClass('js-hidden');
+  $('.podcast-controls').addClass('js-visible');
 });
 
 var podcast = document.getElementById('bannerPodcast'); 
