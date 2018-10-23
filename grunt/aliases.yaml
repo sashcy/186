@@ -6,6 +6,7 @@ default:
   - 'eslint'
   - 'uglify'
   - 'copy'
+  - 'svgmin'
   - 'imagemin'
   - 'connect:livereload'
   - 'watch'
