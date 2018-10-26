@@ -1,3 +1,8 @@
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1199px;
+    }
+}
 
 .logo-wrapper {
     padding: 3px 0;
@@ -35,22 +40,33 @@
     width: 100%;
     background: linear-gradient(rgba(42, 48, 82, 0.6), rgba(42, 48, 82, 0.1)), url('../images/header-image_edited-sm.jpg') no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding: 50px;
     background-position: center;
     min-height: 75vh;
     position: relative;
-    display: flex;
-    align-items: center;
+    box-sizing: border-box;
+    -ms-overflow-style: scrollbar;
+}
+
+.header-content {
+    text-align: left;
+    width: 1200px;
+    max-width: 100%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 .header-title {
     font-size: 48px;
     line-height: 60px;
+    margin-bottom: 30px;
 }
 
 .header-sub {
     display: block;
-    margin: 0px 0;
+    margin: 5px 0;
     font-size: 36px;
     font-weight: 300;
 }
@@ -175,6 +191,7 @@
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 20px;
     width: 150px;
     max-width: 150%;
     height: 150px;
@@ -298,8 +315,24 @@
     margin-bottom: 30px;
 }
 
+.bottom-50 {
+    margin-bottom: 50px;
+}
+
 .dark-grey-bg {
     background: #eaeaea;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
 }
 
 #video, #why-usb, #usb-clients, #get-started, #benefits, #tech, #faq {

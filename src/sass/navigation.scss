@@ -1,7 +1,27 @@
 
 .topnav {
     text-align: right;
-    margin-top: 15px;
+    margin-top: 17px;
+}
+
+/* Nav Layout: */
+.col-left {
+    flex: 1;
+}
+
+.col-right {
+    flex: 3;
+}
+
+@media only screen and (min-width: 1200px) {
+    .navbar-container {
+        display: flex;
+    }
+}
+
+.nav-col {
+    padding: 0 15px;
+    margin: 0;
 }
 
 .topnav a {
@@ -151,4 +171,8 @@
     -ms-user-select: none;
     user-select: none;
     -webkit-tap-highlight-color: transparent;
+}
+
+.test {
+    background-color: #000000;
 }
